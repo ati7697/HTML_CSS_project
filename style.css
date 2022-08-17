@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: block;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.logo{
+    padding-top: 10px;
+    float: left;
+    width: 60px;
+    margin-left: 80px;
+}
+.centerNav {
+    float:none;
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 10px;
+
+}
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    margin: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #FDFDFD;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #FCEDFE;}
+
+.centerNav a{
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 16px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+.centerNav a:hover{background-color: #FCEDFE}
+.navspan span{
+    border-radius: 7px;
+    width: 100%;
+    height: auto;
+    font-size: 9pt;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    position: relative;
+    /*float: left;*/
+}
+
+.rightNav{
+    float: right;
+    padding: 10px;
+}
+.rightNav a{
+    margin: 10px;
+}
+#new{
+    background-color: rebeccapurple;
+}
+#hot{
+    background-color: red;
+}
+#now{
+    background-color: yellow;
+}
+.topsection{
+    width: 100%;
+    height: auto;
+}
+.container {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+.topbox{
+    /*position: relative;*/
+    display:inline-block;
+    width:370px;
+    height:600px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.bottom-left {
+    position: absolute;
+    left: 10px;
+    top: 450px;
+    text-align: center;
+    margin: 15px;
+    display: block;
+}
+.secondLeft {
+    position: absolute;
+    left: 400px;
+    top: 450px;
+    text-align: center;
+    margin: 15px;
+    display: block;
+}
+.thirdLeft {
+    position: absolute;
+    left: 780px;
+    top: 450px;
+    text-align: center;
+    margin: 15px;
+    display: block;
+}
+.lastLeft {
+    position: absolute;
+    left: 1150px;
+    top: 450px;
+    text-align: center;
+    margin: 15px;
+    display: block;
+}
+.topSpan{
+    left:0;
+    top: 0;
+    width: 50%;
+    position:absolute;
+    height: auto;
+    font-size: 13pt;
+    padding: 10px;
+    border-radius: 7px;
+    color: #ffff;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#title{
+    display: block;
+    top: 800px;
+    text-align: left;
+    width: 240px;
+    height: 30px;
+    font-size: 15pt;
+    margin: 60px 0 20px 10px;
+    color: #ffff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#writer{
+    display: block;
+    left: 10px;
+    top: 470px;
+    text-align: left;
+    width: 240px;
+    /*height: 30px;*/
+    font-size: 12pt;
+    margin: 30px 0 10px 10px;
+    color: #ffff;
+}
+#sport{
+    background-color: green;
+}
+#active{
+    background-color: red;
+}
+
+.images{
+    width: 100%;
+    height: 70%;
+}
+
+
+.midsection{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+.midContainer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+.title{
+    text-align: left;
+    display: block;
+    margin: 45px 0 10px 10px;
+    padding:20px;
+}
+.title p{
+    color: gray;
+}
+.midbox{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 300px;
+    margin-top: 45px;
+}
+.topLeftSpan {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.midSpan{
+    position: relative;
+    left:0;
+    top: 15px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 12pt;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 7px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+}
+.midtext{
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 10px 20px 0;
+}
+.midtext small{
+    color: #718096;
+    font-size: 13px;
+    padding:20px;
+}
+.midtext h4{
+    margin-bottom: 15px;
+}
+#tech{
+    background-color: purple;
+}
+#business{
+    background-color: blue;
+}
+#gaming{
+    background-color: rebeccapurple;
+}
+#health{
+    background-color: green;
+}
+.bottomContainer{
+    width:100%;
+    height: auto;
+    padding:50px 0 0 110px;
+    background-color:#FFEFEF;
+    margin-top: 30px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+}
+
+
+.column h2{
+   padding-bottom: 30px;
+}
+
+
+.smallBox{
+    text-align: left;
+    width: 40%;
+    margin-top: 55px;
+}
+.leftImg{
+    width: 650px;
+    height: 450px;
+
+}
+
+.box{
+    float: left;
+    display: flex;
+}
+.box img{
+    width: 115px;
+    height: 115px;
+    padding-bottom: 10px;
+}
+.box h3 {
+    margin-left: 10px;
+    display: flex;
+}
+.smallBox .bottomSpan {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    font-size: 12pt;
+    /*margin-left: 10px;*/
+    /*margin-bottom: 10px;*/
+    border-radius: 10px;
+    color: #ffff;
+}
+.botSection{
+    margin-left: -1544.5px;
+    margin-right: -1544.5px;
+    padding-left: 1544.5px;
+    padding-right: 1544.5px;
+    border-left: 0;
+    border-right: 0;
+}
+.textInPic{
+    position: relative;
+    top: -175px;
+    bottom: 0;
+    padding: 30px;
+    width: auto;
+    height: 200px;
+    color: white;
+}
+
+.textInPic span{
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    bottom: 150px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 10pt;
+    padding: 5px;
+    border-radius: 7px;
+    color: #ffff;
+    margin-left: 25px;
+}
+.text{
+    width: 300px;
+    padding: 10px;
+    margin: 0 0 10px 5px;
+}
+.text span{
+    position:relative;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 10pt;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.text h3{
+    padding-top: 10px;
+}
+.text small{
+    margin-left: 10px;
+    color: #718096;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+   padding-left: 170px;
+}
+.footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+}
+.footer .col h1 {
+    margin: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0 5px 0;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+}
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+.social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+}
+.clearfix {
+    clear: both;
+}
